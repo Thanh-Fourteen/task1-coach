@@ -1,0 +1,435 @@
+{
+  "samples": [
+    {
+      "id": "gov_spending_sample",
+      "promptId": "gov_spending",
+      "band": "5.5 – 6.0",
+      "source": "Bài mẫu trong giáo trình",
+      "sentences": [
+        {
+          "role": "intro",
+          "text": "The bar chart illustrates the proportion of government spending on roads and transport in 4 nations between 1990 and 2005."
+        },
+        {
+          "role": "overview",
+          "text": "Overall, it is clear that the percentages of government spending in Italia, Portugal and the UK decreased while the opposite was true for the USA."
+        },
+        {
+          "role": "overview",
+          "text": "Moreover, the figure for Portugal was the highest throughout the period, except in 2000."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the graph that the percentages of government spending in Portugal and Italia were the most significant."
+        },
+        {
+          "role": "body1",
+          "text": "In 1990, the proportion of government spending in Portugal was the highest, at around 27%, compared with around 22% of Italia."
+        },
+        {
+          "role": "body1",
+          "text": "The figure for Portugal dropped gradually to around 20% after 15 years."
+        },
+        {
+          "role": "body1",
+          "text": "For Italia, its figure declined modestly to 20% in 1995 and then reached a peak of about 23% after 5 years."
+        },
+        {
+          "role": "body1",
+          "text": "However, the expenditure in this country fell dramatically to around 19% in 2005."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, the proportions of government spending in the USA and the UK were the smallest."
+        },
+        {
+          "role": "body2",
+          "text": "In 1990, the figure of the USA was around 11%, compared with 10% of the UK."
+        },
+        {
+          "role": "body2",
+          "text": "The percentage of government spending in the USA fell slightly to 10% in 1995."
+        },
+        {
+          "role": "body2",
+          "text": "However, its figure rose significantly to 15% at the end of the period."
+        },
+        {
+          "role": "body2",
+          "text": "For the UK, the expenditure decreased modestly to around 9% and then reached a peak of about 12% in 2000."
+        },
+        {
+          "role": "body2",
+          "text": "Nevertheless, its figure declined suddenly to around 8% in 2005."
+        }
+      ],
+      "notes": [
+        "Overview không có một con số nào — đúng yêu cầu giáo trình.",
+        "Mỗi đoạn body đều mở bằng liên từ khác nhau: It can be seen… / By contrast…",
+        "Có đủ đỉnh (reached a peak of about 23%) và các mức tăng giảm nổi bật."
+      ]
+    },
+    {
+      "id": "uk_economy_sample",
+      "promptId": "uk_economy",
+      "band": "6.0",
+      "source": "Bài mẫu trong giáo trình, trang 19",
+      "sentences": [
+        {
+          "role": "overview",
+          "text": "Overall, contributions of agriculture and manufacturing declined significantly while business and financial services showed a steady increase."
+        },
+        {
+          "role": "overview",
+          "text": "Moreover, despite contributing the least in 1900, business and finance became the leading sector by 2000."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the graph that the contributions of both agriculture and manufacturing dropped substantially over the century."
+        },
+        {
+          "role": "body1",
+          "text": "The figure for agriculture was the highest in 1900, at around 50%."
+        },
+        {
+          "role": "body1",
+          "text": "After that, it grew slightly to a peak of approximately 53% in 1950."
+        },
+        {
+          "role": "body1",
+          "text": "However, it then plunged to only around 3% in 2000, making it the lowest contributing sector."
+        },
+        {
+          "role": "body1",
+          "text": "Likewise, manufacturing witnessed a significant decline from 45% in 1900 to about 15% at the end of the period."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, business and financial services experienced an upward trend."
+        },
+        {
+          "role": "body2",
+          "text": "It was the lowest contributor in 1900, accounting for around 3% of the economy."
+        },
+        {
+          "role": "body2",
+          "text": "Subsequently, it tripled to 10% by 1950 before doubling again to 20% in 1975."
+        },
+        {
+          "role": "body2",
+          "text": "By 2000, it had become the highest contributing sector, making up approximately 35% of the UK economy."
+        }
+      ],
+      "notes": [
+        "Bài này thiếu câu Introduction vì bản chụp bắt đầu từ Overview — khi viết bạn nhớ luôn có 1 câu Intro.",
+        "Chú ý cách dùng 'was the highest in 1900' cho năm ĐẦU, và 'a peak of' cho năm giữa.",
+        "'accounting for', 'making up' là dạng V-ing rút gọn rất đáng học."
+      ]
+    },
+    {
+      "id": "brighton_sample",
+      "promptId": "brighton",
+      "band": "5.5",
+      "source": "Soạn theo template của giáo trình",
+      "sentences": [
+        {
+          "role": "intro",
+          "text": "The line graph demonstrates the percentage of tourists to England visiting four different attractions in Brighton from 1980 to 2010."
+        },
+        {
+          "role": "overview",
+          "text": "Overall, it is clear that the figures for the Festival and the art gallery increased while the opposite trend was true for the Pier."
+        },
+        {
+          "role": "overview",
+          "text": "In addition, the Pavilion had the highest figure for most of the period."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the graph that the Pavilion and the Pier were the two most popular attractions at the beginning."
+        },
+        {
+          "role": "body1",
+          "text": "In 1980, the percentage of tourists visiting the Pier was the highest, at around 45%, compared with 30% of the Pavilion."
+        },
+        {
+          "role": "body1",
+          "text": "After that, the figure for the Pier declined steadily to about 22% in 2010."
+        },
+        {
+          "role": "body1",
+          "text": "Meanwhile, the proportion of visitors to the Pavilion rose considerably to a peak of 50% in 2000, after which it fell to around 36%."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, the figures for the Festival and the art gallery were much smaller in 1980, at around 12% and 8% respectively."
+        },
+        {
+          "role": "body2",
+          "text": "The percentage of tourists attending the Festival grew significantly to 40% at the end of the period, surpassing the Pavilion in 2010."
+        },
+        {
+          "role": "body2",
+          "text": "Likewise, the figure for the art gallery saw a gradual increase to about 18% in 2010."
+        }
+      ],
+      "notes": [
+        "Câu 'surpassing the Pavilion in 2010' là điểm VƯỢT MẶT bắt buộc phải nêu khi hai đường cắt nhau.",
+        "'at around 12% and 8% respectively' — cách gộp hai số liệu rất gọn."
+      ]
+    },
+    {
+      "id": "transport_uk_sample",
+      "promptId": "transport_uk",
+      "band": "5.5",
+      "source": "Soạn theo template của giáo trình",
+      "sentences": [
+        {
+          "role": "intro",
+          "text": "The line graph illustrates the average number of people commuting daily by three different means of public transport in the UK from 1980 to 2010."
+        },
+        {
+          "role": "overview",
+          "text": "Overall, it is clear that the numbers of people travelling by train and underground increased while the opposite was true for buses."
+        },
+        {
+          "role": "overview",
+          "text": "Moreover, the bus was the most popular means of transport at the start of the period but the least popular at the end."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the graph that the number of bus commuters was the highest in 1980, at around 400,000."
+        },
+        {
+          "role": "body1",
+          "text": "This figure then decreased steadily to about 280,000 in 2000."
+        },
+        {
+          "role": "body1",
+          "text": "By 2010, it had dropped to only 200,000, making the bus the least used means of public transport."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, the number of train passengers saw a considerable increase from 180,000 in 1980 to 420,000 in 2010."
+        },
+        {
+          "role": "body2",
+          "text": "It overtook the bus in around 2005 and became the most popular option at the end of the period."
+        },
+        {
+          "role": "body2",
+          "text": "Likewise, the figure for the underground rose gradually from 120,000 to 250,000 over the same period."
+        }
+      ],
+      "notes": [
+        "'It overtook the bus in around 2005' — nêu điểm vượt mặt.",
+        "Chú ý 'the number of bus commuters WAS' — chia động từ số ít dù 'commuters' số nhiều."
+      ]
+    },
+    {
+      "id": "electronics_sample",
+      "promptId": "electronics",
+      "band": "5.5",
+      "source": "Soạn theo Exercise 2 của giáo trình",
+      "sentences": [
+        {
+          "role": "intro",
+          "text": "The line graph depicts the sales of four home entertainment products between 2000 and 2015."
+        },
+        {
+          "role": "overview",
+          "text": "Overall, it is clear that the sales of tablets rose dramatically while the figures for audio cassettes and CDs declined."
+        },
+        {
+          "role": "overview",
+          "text": "In addition, tablets had the highest sales at the end of the period, whereas audio cassettes had the lowest."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the graph that CDs were the best-selling product for most of the period."
+        },
+        {
+          "role": "body1",
+          "text": "In 2000, CD sales stood at 60 million, compared with 40 million of audio cassettes."
+        },
+        {
+          "role": "body1",
+          "text": "The figure for CDs climbed slightly to a peak of 75 million in 2005 before plunging to only 15 million in 2015."
+        },
+        {
+          "role": "body1",
+          "text": "Meanwhile, the sales of audio cassettes fell steadily throughout the period, reaching a low of 2 million at the end."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, tablets and MP3 players experienced an upward trend at the beginning."
+        },
+        {
+          "role": "body2",
+          "text": "The sales of MP3 players grew sharply from 5 million in 2000 to 52 million in 2010, after which they dropped to 30 million."
+        },
+        {
+          "role": "body2",
+          "text": "Tablets, which were not sold in 2000, saw a dramatic rise to 70 million in 2015, surpassing all the other products."
+        }
+      ],
+      "notes": [
+        "'stood at 60 million' — dùng cho số liệu năm đầu tiên.",
+        "'reaching a low of 2 million' — dạng V-ing rút gọn, tránh lặp chủ ngữ."
+      ]
+    },
+    {
+      "id": "unemployment_vn_sample",
+      "promptId": "unemployment_vn",
+      "band": "5.5",
+      "source": "Soạn theo ví dụ giới từ của giáo trình",
+      "sentences": [
+        {
+          "role": "intro",
+          "text": "The line graph demonstrates the unemployment rate in Vietnam and the US over the period from 2007 to 2010."
+        },
+        {
+          "role": "overview",
+          "text": "Overall, it is clear that the figure for the US increased while the rate in Vietnam fluctuated."
+        },
+        {
+          "role": "overview",
+          "text": "Moreover, the two countries ended the period at the same level."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the graph that the unemployment rate of Vietnam fluctuated between 8% and 12% throughout the period."
+        },
+        {
+          "role": "body1",
+          "text": "In 2007, the figure stood at 11%, and it then rose slightly to a peak of 12% one year later."
+        },
+        {
+          "role": "body1",
+          "text": "After that, the rate dropped sharply to a low of 8% in 2009 before climbing to 10% in 2010."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, the unemployment rate in the US saw a consistent upward trend."
+        },
+        {
+          "role": "body2",
+          "text": "The figure was only 5% in 2007, which was much lower than that of Vietnam."
+        },
+        {
+          "role": "body2",
+          "text": "It then grew steadily by 5% over the following three years, reaching 10% in 2010 and catching up with Vietnam."
+        }
+      ],
+      "notes": [
+        "Chú ý: 'fluctuated BETWEEN 8% AND 12%' — không bao giờ viết 'fluctuated from 8% to 12%'.",
+        "'grew steadily BY 5%' — 'by' vì đây là khoảng chênh lệch (10% − 5%)."
+      ]
+    },
+    {
+      "id": "students_gender_sample",
+      "promptId": "students_gender",
+      "band": "5.5",
+      "source": "Soạn theo ví dụ mục 1.2 của giáo trình",
+      "sentences": [
+        {
+          "role": "intro",
+          "text": "The bar chart illustrates the percentage of male and female students studying Engineering at a university between 2014 and 2020."
+        },
+        {
+          "role": "overview",
+          "text": "Overall, it is clear that the proportion of female students increased while the opposite trend was true for male students."
+        },
+        {
+          "role": "overview",
+          "text": "In addition, female students overtook their male counterparts during the period."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the chart that the figure for male students decreased gradually over the seven years."
+        },
+        {
+          "role": "body1",
+          "text": "In 2014, the percentage of male students was the highest, at 30%."
+        },
+        {
+          "role": "body1",
+          "text": "This figure then declined slightly to 26% in 2016 and to 20% in 2018."
+        },
+        {
+          "role": "body1",
+          "text": "By 2020, it had fallen to only 18%, the lowest point over the whole period."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, the proportion of female students saw a dramatic increase from 10% in 2014 to 45% in 2020."
+        },
+        {
+          "role": "body2",
+          "text": "The figure grew sharply by 12% in the first two years and surpassed that of male students in around 2017."
+        },
+        {
+          "role": "body2",
+          "text": "It continued to rise significantly to 40% in 2018 before levelling off at around 45%."
+        }
+      ],
+      "notes": [
+        "'grew sharply BY 12%' — chênh lệch 22% − 10%.",
+        "'levelling off at around 45%' — dùng 'at' sau 'level off'."
+      ]
+    },
+    {
+      "id": "electricity_sample",
+      "promptId": "electricity",
+      "band": "5.5",
+      "source": "Soạn theo ví dụ giới từ 'of' của giáo trình",
+      "sentences": [
+        {
+          "role": "intro",
+          "text": "The line graph illustrates the amount of electricity produced from three different sources in one country over the period from 1980 to 2020."
+        },
+        {
+          "role": "overview",
+          "text": "Overall, it is clear that the amount of electricity generated from renewables increased while the opposite trend was true for coal."
+        },
+        {
+          "role": "overview",
+          "text": "Moreover, renewables became the leading source by the end of the period, despite contributing the least at the beginning."
+        },
+        {
+          "role": "body1",
+          "text": "It can be seen from the graph that coal was the most important source for most of the period."
+        },
+        {
+          "role": "body1",
+          "text": "In 1980, the amount of electricity produced from coal stood at 8,000 units, compared with only 1,000 units of renewables."
+        },
+        {
+          "role": "body1",
+          "text": "This figure then grew slightly and reached a peak of 10,000 units in 2000."
+        },
+        {
+          "role": "body1",
+          "text": "However, it plunged to just 3,000 units in 2020, making coal the smallest contributor at the end of the period."
+        },
+        {
+          "role": "body2",
+          "text": "By contrast, the figure for renewables saw a dramatic rise throughout the four decades."
+        },
+        {
+          "role": "body2",
+          "text": "It grew gradually from 1,000 units in 1980 to 3,000 units in 2000, and then climbed sharply to 14,000 units in 2020, overtaking both of the other sources."
+        },
+        {
+          "role": "body2",
+          "text": "Meanwhile, the amount of electricity produced from nuclear power remained relatively stable, rising modestly from 5,000 units in 1980 to around 8,000 units in 2000 before falling slightly to 7,000 units at the end of the period."
+        }
+      ],
+      "notes": [
+        "'reached a peak of 10,000 units' — danh từ peak đi với 'of', và dùng cho năm GIỮA chứ không phải năm đầu.",
+        "'stood at 8,000 units' — dùng 'at' để nêu số liệu của năm đầu tiên.",
+        "'overtaking both of the other sources' — nêu điểm VƯỢT MẶT, một trong các điểm bắt buộc của Body."
+      ]
+    }
+  ]
+}

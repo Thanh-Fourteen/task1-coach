@@ -1,0 +1,638 @@
+{
+  "groups": [
+    {
+      "id": "verbs_intro",
+      "title": "Động từ giới thiệu biểu đồ",
+      "hint": "Dùng ở câu Introduction để paraphrase chữ \"shows\" trong đề bài.",
+      "words": [
+        "show",
+        "illustrate",
+        "demonstrate",
+        "depict",
+        "present",
+        "give information about",
+        "compare"
+      ],
+      "notes": [
+        "Đề bài hay dùng \"shows\" → bạn PHẢI đổi sang từ khác, ví dụ illustrates / demonstrates.",
+        "\"compare\" chỉ dùng khi biểu đồ thực sự so sánh nhiều đối tượng."
+      ],
+      "examples": [
+        {
+          "en": "The bar chart illustrates the proportion of government spending on roads and transport in 4 nations between 1990 and 2005.",
+          "vi": "Biểu đồ cột minh hoạ tỉ lệ chi tiêu chính phủ cho đường bộ và giao thông ở 4 quốc gia trong giai đoạn 1990–2005."
+        }
+      ]
+    },
+    {
+      "id": "chart_types",
+      "title": "Gọi tên biểu đồ",
+      "hint": "Đề nói \"the chart below\" thì bài viết bỏ chữ \"below\" đi.",
+      "words": [
+        "the bar chart",
+        "the line graph",
+        "the pie chart",
+        "the table",
+        "the graph",
+        "the chart",
+        "the figure"
+      ],
+      "notes": [
+        "Bỏ chữ \"below\" khi paraphrase: \"The chart below shows…\" → \"The bar chart illustrates…\"."
+      ],
+      "examples": []
+    },
+    {
+      "id": "measure_units",
+      "title": "Đơn vị đo — quan trọng nhất",
+      "hint": "Đây là chỗ sai giới từ nhiều nhất trong cả bài.",
+      "words": [
+        "the number of",
+        "the amount of",
+        "the quantity of",
+        "the percentage of",
+        "the proportion of",
+        "the share of",
+        "the rate of",
+        "the figure(s) for"
+      ],
+      "notes": [
+        "number / amount / quantity / percentage / proportion / share + of. Riêng figure(s) + FOR.",
+        "the number of + danh từ ĐẾM ĐƯỢC số nhiều → nhưng động từ chia SỐ ÍT. VD: The number of students WAS 100 in 2020.",
+        "the amount of / the quantity of + danh từ KHÔNG đếm được. VD: The amount of oil produced daily in Cairo was 100 liters.",
+        "percentage ≈ proportion ≈ share — chỉ dùng khi đơn vị là %.",
+        "the percentage / proportion of + NP (đếm được số nhiều, hoặc không đếm được) + động từ số ít."
+      ],
+      "examples": [
+        {
+          "en": "The number of students enrolling in Biology was 100 in 2020.",
+          "vi": "Số sinh viên đăng ký ngành Sinh học là 100 vào năm 2020."
+        },
+        {
+          "en": "The percentage of male employees working for Google was 20% higher than the figure for their female counterparts.",
+          "vi": "Tỉ lệ nhân viên nam làm cho Google cao hơn con số của nữ 20%."
+        },
+        {
+          "en": "The figures for unemployment in Vietnam and the US were 10% and 8% respectively.",
+          "vi": "Các con số về thất nghiệp ở Việt Nam và Mỹ lần lượt là 10% và 8%."
+        }
+      ]
+    },
+    {
+      "id": "time_range",
+      "title": "Diễn đạt mốc thời gian",
+      "hint": "between … AND …, from … TO … — tuyệt đối không trộn hai cấu trúc.",
+      "words": [
+        "between 1990 and 2005",
+        "from 1990 to 2005",
+        "over the period from … to …",
+        "during the period from … to …",
+        "over a 15-year period",
+        "throughout the period",
+        "in the first year",
+        "at the end of the period",
+        "after 2 years",
+        "two years later"
+      ],
+      "notes": [
+        "SAI: \"between 1990 to 2005\". ĐÚNG: \"between 1990 and 2005\" hoặc \"from 1990 to 2005\".",
+        "\"throughout the period\" = trong suốt giai đoạn — rất hợp cho câu Overview.",
+        "Đổi cách nói thời gian ở mỗi đoạn để tránh lặp."
+      ],
+      "examples": [
+        {
+          "en": "The bar chart illustrates … in 4 nations between 1990 and 2005.",
+          "vi": "Biểu đồ cột minh hoạ … ở 4 quốc gia trong giai đoạn 1990–2005."
+        },
+        {
+          "en": "The figure for Portugal was the highest throughout the period, except in 2000.",
+          "vi": "Con số của Bồ Đào Nha cao nhất trong suốt giai đoạn, trừ năm 2000."
+        }
+      ]
+    },
+    {
+      "id": "approx",
+      "title": "Nói số liệu xấp xỉ",
+      "hint": "Đọc biểu đồ thường không ra số chẵn — luôn thêm từ xấp xỉ cho an toàn.",
+      "words": [
+        "around",
+        "about",
+        "approximately",
+        "roughly",
+        "just over",
+        "just under",
+        "nearly",
+        "only around"
+      ],
+      "notes": [
+        "Dùng xen kẽ các từ này trong bài để không lặp \"about\" mãi.",
+        "\"just over 20%\" = hơn 20% một chút; \"just under 20%\" = gần 20% nhưng chưa tới."
+      ],
+      "examples": [
+        {
+          "en": "The figure for agriculture was the highest in 1900, at around 50%.",
+          "vi": "Con số của nông nghiệp cao nhất năm 1900, ở mức khoảng 50%."
+        }
+      ]
+    },
+    {
+      "id": "up",
+      "title": "Diễn đạt TĂNG",
+      "hint": "Động từ và danh từ đi cặp với nhau — nhớ cả hai để đổi cấu trúc.",
+      "words": [
+        "increase",
+        "rise",
+        "grow",
+        "climb",
+        "go up",
+        "soar",
+        "surge",
+        "double",
+        "triple",
+        "an upward trend"
+      ],
+      "notes": [
+        "soar / surge chỉ dùng khi tăng RẤT mạnh.",
+        "double = gấp đôi, triple = gấp ba — đi thẳng với \"to\": doubled to 20%.",
+        "Subject + saw an upward trend = Subject + increased."
+      ],
+      "examples": [
+        {
+          "en": "The number of male employees at ABC Company grew slightly from 50 in 2000 to 70 in 2002.",
+          "vi": "Số nhân viên nam tại công ty ABC tăng nhẹ từ 50 năm 2000 lên 70 năm 2002."
+        }
+      ]
+    },
+    {
+      "id": "down",
+      "title": "Diễn đạt GIẢM",
+      "hint": "plunge / plummet chỉ dành cho mức giảm rất mạnh.",
+      "words": [
+        "decrease",
+        "decline",
+        "drop",
+        "fall",
+        "go down",
+        "plunge",
+        "plummet",
+        "a downward trend"
+      ],
+      "notes": [
+        "Subject + saw a downward trend = Subject + decreased.",
+        "Nhớ dạng quá khứ bất quy tắc: fall → fell; go down → went down."
+      ],
+      "examples": [
+        {
+          "en": "The sales of audio cassettes fell modestly in 2002.",
+          "vi": "Doanh số băng cassette giảm khiêm tốn vào năm 2002."
+        }
+      ]
+    },
+    {
+      "id": "stable",
+      "title": "Diễn đạt ỔN ĐỊNH",
+      "hint": "Sau remained stable dùng AT + số liệu.",
+      "words": [
+        "remain stable",
+        "remain unchanged",
+        "remain the same",
+        "stay constant",
+        "level off",
+        "stabilise",
+        "show little change",
+        "see stability"
+      ],
+      "notes": [
+        "remained stable + AT + số liệu (+ UNTIL + thời gian).",
+        "Có thể thay \"remained\" bằng \"stayed\".",
+        "level off = đang tăng/giảm rồi chững lại đi ngang."
+      ],
+      "examples": [
+        {
+          "en": "The proportion of female students remained stable at 45% until 2020.",
+          "vi": "Tỉ lệ nữ sinh giữ ổn định ở mức 45% cho tới năm 2020."
+        },
+        {
+          "en": "Sales of audio cassettes fell and then levelled off.",
+          "vi": "Doanh số băng cassette giảm rồi sau đó đi ngang."
+        }
+      ]
+    },
+    {
+      "id": "fluctuate",
+      "title": "Diễn đạt DAO ĐỘNG",
+      "hint": "fluctuate KHÔNG đi với from … to …",
+      "words": [
+        "fluctuate",
+        "vary",
+        "see fluctuations",
+        "experience a fluctuation",
+        "see variations"
+      ],
+      "notes": [
+        "SAI: \"fluctuated from 8% to 12%\". ĐÚNG: \"fluctuated between 8% and 12%\" hoặc \"fluctuated around 10%\".",
+        "around + số liệu TRUNG BÌNH; between + số nhỏ nhất + and + số lớn nhất."
+      ],
+      "examples": [
+        {
+          "en": "The unemployment rate of Vietnam fluctuated around 10% from 2007 to 2010.",
+          "vi": "Tỉ lệ thất nghiệp Việt Nam dao động quanh mức 10% từ 2007 đến 2010."
+        },
+        {
+          "en": "The unemployment rate of Vietnam fluctuated between 8% and 12% from 2007 to 2010.",
+          "vi": "Tỉ lệ thất nghiệp Việt Nam dao động trong khoảng 8% đến 12% từ 2007 đến 2010."
+        }
+      ]
+    },
+    {
+      "id": "peak_low",
+      "title": "Đỉnh và đáy",
+      "hint": "\"peak\" không dùng cho năm đầu tiên của biểu đồ.",
+      "words": [
+        "reach a peak of",
+        "peak at",
+        "reach the highest point of",
+        "reach an all-time peak of",
+        "reach a low of",
+        "hit the lowest point of",
+        "reach an all-time low of",
+        "bottom out",
+        "stood at"
+      ],
+      "notes": [
+        "Năm ĐẦU TIÊN mà cao nhất thì dùng \"was the highest\", KHÔNG dùng \"reached a peak\" (vì chưa leo lên từ đâu cả).",
+        "reached a peak OF + số liệu (giới từ of, không phải at khi dùng danh từ peak).",
+        "all-time peak / all-time low = cao/thấp nhất trong TẤT CẢ các năm → mức kỷ lục.",
+        "stood at + số liệu = đứng ở mức — dùng để nêu số liệu tại một thời điểm."
+      ],
+      "examples": [
+        {
+          "en": "The amount of electricity produced reached a peak of 10,000 units in 2000.",
+          "vi": "Lượng điện sản xuất đạt đỉnh 10.000 đơn vị vào năm 2000."
+        },
+        {
+          "en": "The figure for agriculture was the highest in 1900, at around 50%.",
+          "vi": "Con số của nông nghiệp cao nhất năm 1900, ở mức khoảng 50%."
+        }
+      ]
+    },
+    {
+      "id": "degree",
+      "title": "Mức độ thay đổi (Trạng từ ↔ Tính từ)",
+      "hint": "Trạng từ đi với ĐỘNG TỪ, tính từ đi với DANH TỪ. Cùng một ý, hai cách viết.",
+      "words": [
+        "gradually – gradual",
+        "steadily – steady",
+        "slowly – slow",
+        "consistently – consistent",
+        "slightly – slight",
+        "modestly – modest",
+        "marginally – marginal",
+        "moderately – moderate",
+        "considerably – considerable",
+        "significantly – significant",
+        "substantially – substantial",
+        "dramatically – dramatic",
+        "suddenly – sudden",
+        "sharply – sharp",
+        "rapidly – rapid"
+      ],
+      "notes": [
+        "ĐỀU (thời gian dài): gradually, steadily, slowly, consistently.",
+        "NHẸ: slightly, modestly, marginally, moderately.",
+        "LỚN / MẠNH: considerably, significantly, substantially, dramatically.",
+        "ĐỘT NGỘT (mạnh, thời gian ngắn): suddenly, sharply, rapidly.",
+        "decreased GRADUALLY (adv + động từ) = saw a GRADUAL decrease (adj + danh từ)."
+      ],
+      "examples": [
+        {
+          "en": "The number of male students decreased gradually from 30% in 2014 to 20% in 2018.",
+          "vi": "Số nam sinh giảm từ từ từ 30% năm 2014 xuống 20% năm 2018."
+        },
+        {
+          "en": "The number of male students saw a gradual decrease from 30% in 2014 to 20% in 2018.",
+          "vi": "Cùng nghĩa, viết bằng danh từ."
+        }
+      ]
+    },
+    {
+      "id": "share_of_total",
+      "title": "Chiếm bao nhiêu phần trăm",
+      "hint": "Rất hợp cho biểu đồ tỉ lệ %.",
+      "words": [
+        "account for",
+        "make up",
+        "constitute",
+        "represent",
+        "contribute",
+        "be the leading sector",
+        "be the lowest contributor"
+      ],
+      "notes": [
+        "account for / make up + số % + of + tổng thể.",
+        "Dạng V-ing rất tiện để nối câu: \"…, accounting for around 3% of the economy.\""
+      ],
+      "examples": [
+        {
+          "en": "It was the lowest contributor in 1900, accounting for around 3% of the economy.",
+          "vi": "Nó là ngành đóng góp thấp nhất năm 1900, chiếm khoảng 3% nền kinh tế."
+        },
+        {
+          "en": "By 2000, it had become the highest contributing sector, making up approximately 35% of the UK economy.",
+          "vi": "Đến năm 2000, nó trở thành ngành đóng góp cao nhất, chiếm xấp xỉ 35% kinh tế Anh."
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "So sánh và vượt mặt",
+      "hint": "Body cần ít nhất một câu so sánh giữa các item.",
+      "words": [
+        "surpass",
+        "overtake",
+        "exceed",
+        "be higher than",
+        "be lower than",
+        "compared with",
+        "compared to",
+        "twice as many as",
+        "the highest",
+        "the lowest",
+        "respectively"
+      ],
+      "notes": [
+        "\"vượt mặt\" là điểm nổi bật BẮT BUỘC phải nêu nếu biểu đồ có đường cắt nhau.",
+        "compared with / compared to + số liệu + của item kia.",
+        "respectively = lần lượt — dùng khi liệt kê 2 số cho 2 đối tượng."
+      ],
+      "examples": [
+        {
+          "en": "In 1990, the proportion of government spending in Portugal was the highest, at around 27%, compared with around 22% of Italia.",
+          "vi": "Năm 1990, tỉ lệ chi tiêu chính phủ của Bồ Đào Nha cao nhất, khoảng 27%, so với khoảng 22% của Ý."
+        }
+      ]
+    },
+    {
+      "id": "linkers",
+      "title": "Liên từ nối ý",
+      "hint": "Mỗi câu trong Body nên bắt đầu bằng một liên từ khác nhau.",
+      "words": [
+        "Overall",
+        "It is clear that",
+        "It can be seen from the graph that",
+        "In addition",
+        "Moreover",
+        "However",
+        "Nevertheless",
+        "By contrast",
+        "Meanwhile",
+        "Likewise",
+        "Similarly",
+        "Subsequently",
+        "After that",
+        "Before that",
+        "By the end of the period",
+        "Two years later"
+      ],
+      "notes": [
+        "\"Overall, it is clear that…\" là câu mở đầu BẮT BUỘC của Overview.",
+        "\"It can be seen from the graph that…\" mở đầu Body 1.",
+        "However / Nevertheless / By contrast: đổi chiều ý. Likewise / Similarly: cùng chiều ý."
+      ],
+      "examples": [
+        {
+          "en": "Overall, it is clear that the percentages in Italia, Portugal and the UK decreased while the opposite was true for the USA.",
+          "vi": "Nhìn chung, rõ ràng tỉ lệ ở Ý, Bồ Đào Nha và Anh giảm trong khi Mỹ thì ngược lại."
+        }
+      ]
+    },
+    {
+      "id": "paraphrase_subject",
+      "title": "Paraphrase chủ thể của đề bài",
+      "hint": "Chủ thể lặp lại rất nhiều lần trong bài nên bắt buộc phải biết đổi cách nói.",
+      "words": [
+        "How many / how much + chủ thể + V",
+        "The number of + N + who/which/that + V",
+        "The number of + N + V-ing",
+        "The number of + N + V3-ed"
+      ],
+      "notes": [
+        "Cách 1 — dùng mệnh đề quan hệ: The number of people WHO COMMUTED daily by public transport.",
+        "Cách 2 — rút gọn mệnh đề quan hệ (chủ động → V-ing): the average number of people COMMUTING daily by public transport.",
+        "Cách 3 — rút gọn bị động → V3/ed: the amount of oil PRODUCED daily in Cairo.",
+        "Cách 4 — đổi thành câu hỏi gián tiếp: HOW MANY people commuted daily by public transport.",
+        "Đổi luôn tên nhóm người: people in the UK → UK residents / the British; visitors → tourists; employees → workers / staff; students → learners."
+      ],
+      "examples": [
+        {
+          "en": "Đề: The chart below shows the average number of people who commuted each day by public transport in the UK between 1980 and 2010.",
+          "vi": "Đề gốc."
+        },
+        {
+          "en": "Viết lại: The bar chart illustrates the average number of people commuting daily by 3 different means of public transport in the UK from 1980 to 2010.",
+          "vi": "Đã paraphrase: shows→illustrates, who commuted each day→commuting daily, between…and→from…to."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "The ___ of students was 100 in 2020.",
+      "choices": [
+        "number",
+        "amount",
+        "figure",
+        "quantity"
+      ],
+      "answer": "number",
+      "explain": "'students' đếm được → the NUMBER of."
+    },
+    {
+      "q": "The ___ for Portugal was 27%.",
+      "choices": [
+        "figure",
+        "number",
+        "amount",
+        "percentage"
+      ],
+      "answer": "figure",
+      "explain": "figure đi với FOR, không phải of."
+    },
+    {
+      "q": "The amount of oil ___ daily in Cairo was 100 liters.",
+      "choices": [
+        "produced",
+        "produce",
+        "producing",
+        "produces"
+      ],
+      "answer": "produced",
+      "explain": "Rút gọn mệnh đề bị động → V3/ed."
+    },
+    {
+      "q": "Chọn cách viết ĐÚNG:",
+      "choices": [
+        "between 1990 and 2005",
+        "between 1990 to 2005",
+        "from 1990 and 2005",
+        "between 1990 until 2005"
+      ],
+      "answer": "between 1990 and 2005",
+      "explain": "between … AND …, hoặc from … TO …"
+    },
+    {
+      "q": "Chọn cách viết ĐÚNG:",
+      "choices": [
+        "fluctuated between 8% and 12%",
+        "fluctuated from 8% to 12%",
+        "fluctuated of 8% to 12%",
+        "fluctuated at 8% and 12%"
+      ],
+      "answer": "fluctuated between 8% and 12%",
+      "explain": "fluctuate không đi với from…to."
+    },
+    {
+      "q": "Chọn cách viết ĐÚNG:",
+      "choices": [
+        "reached a peak of 10,000",
+        "reached a peak at 10,000",
+        "reached a peak to 10,000",
+        "reached peak of 10,000"
+      ],
+      "answer": "reached a peak of 10,000",
+      "explain": "Danh từ a peak + OF. Động từ peaked + AT."
+    },
+    {
+      "q": "Năm 1990 là năm ĐẦU TIÊN và cao nhất. Viết thế nào?",
+      "choices": [
+        "was the highest in 1990",
+        "reached a peak in 1990",
+        "peaked in 1990",
+        "hit a peak in 1990"
+      ],
+      "answer": "was the highest in 1990",
+      "explain": "Năm đầu chưa leo lên từ đâu nên không dùng peak."
+    },
+    {
+      "q": "20% → 35%. Chọn câu ĐÚNG:",
+      "choices": [
+        "grew by 15%",
+        "grew by 35%",
+        "grew to 15%",
+        "grew of 15%"
+      ],
+      "answer": "grew by 15%",
+      "explain": "by = chênh lệch (35−20). to = mức đạt tới."
+    },
+    {
+      "q": "The figure remained stable ___ 45% until 2020.",
+      "choices": [
+        "at",
+        "to",
+        "of",
+        "by"
+      ],
+      "answer": "at",
+      "explain": "remained stable + AT."
+    },
+    {
+      "q": "Đề dùng 'shows'. Bài viết nên dùng từ nào?",
+      "choices": [
+        "illustrates",
+        "shows",
+        "show",
+        "showing"
+      ],
+      "answer": "illustrates",
+      "explain": "Phải paraphrase, không chép lại từ của đề."
+    },
+    {
+      "q": "Từ nào KHÔNG cùng nghĩa với 'percentage'?",
+      "choices": [
+        "number",
+        "proportion",
+        "share",
+        "rate"
+      ],
+      "answer": "number",
+      "explain": "number đếm đơn vị, không phải %."
+    },
+    {
+      "q": "The number of male students saw a ___ decrease.",
+      "choices": [
+        "gradual",
+        "gradually",
+        "graduate",
+        "gradualness"
+      ],
+      "answer": "gradual",
+      "explain": "Trước danh từ → tính từ."
+    },
+    {
+      "q": "The number of male students decreased ___ .",
+      "choices": [
+        "gradually",
+        "gradual",
+        "gradualness",
+        "graduate"
+      ],
+      "answer": "gradually",
+      "explain": "Sau động từ → trạng từ."
+    },
+    {
+      "q": "Chọn từ chỉ mức giảm MẠNH nhất:",
+      "choices": [
+        "plummeted",
+        "dropped",
+        "declined",
+        "fell"
+      ],
+      "answer": "plummeted",
+      "explain": "plunge / plummet dành cho mức giảm rất mạnh."
+    },
+    {
+      "q": "It was the lowest contributor, ___ for around 3% of the economy.",
+      "choices": [
+        "accounting",
+        "account",
+        "accounted",
+        "accounts"
+      ],
+      "answer": "accounting",
+      "explain": "Rút gọn chủ động → V-ing."
+    },
+    {
+      "q": "Câu Overview bắt buộc mở đầu bằng:",
+      "choices": [
+        "Overall, it is clear that",
+        "It can be seen from the graph that",
+        "By contrast",
+        "In 1990"
+      ],
+      "answer": "Overall, it is clear that",
+      "explain": "Overall báo hiệu phần Overview cho giám khảo."
+    },
+    {
+      "q": "Hai đường cắt nhau. Dùng từ nào?",
+      "choices": [
+        "overtook",
+        "increased",
+        "fluctuated",
+        "levelled off"
+      ],
+      "answer": "overtook",
+      "explain": "overtake / surpass / exceed = vượt mặt."
+    },
+    {
+      "q": "Đang giảm rồi đi ngang. Dùng cụm nào?",
+      "choices": [
+        "levelled off",
+        "plunged",
+        "soared",
+        "fluctuated"
+      ],
+      "answer": "levelled off",
+      "explain": "level off = chững lại đi ngang."
+    }
+  ]
+}

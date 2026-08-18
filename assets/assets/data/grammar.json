@@ -1,0 +1,236 @@
+{
+  "sections": [
+    {
+      "id": "core_structures",
+      "title": "2 cấu trúc lõi mô tả tăng giảm",
+      "intro": "Thuộc 2 cấu trúc này là viết được cả bài. Đổi qua lại giữa chúng để không bị lặp.",
+      "blocks": [
+        {
+          "label": "Cấu trúc 1 — dùng ĐỘNG TỪ + TRẠNG TỪ",
+          "formula": "Chủ thể + Verb(quá khứ) + Adverb + (from số liệu năm trước) + to số liệu năm sau + in thời gian",
+          "vi": "Số nhân viên nam tăng một cách nhẹ nhàng…",
+          "example": "The number of male employees working at ABC Company grew slightly from 50 in 2000 to 70 in 2002.",
+          "tags": [
+            "v",
+            "adv"
+          ]
+        },
+        {
+          "label": "Cấu trúc 2 — dùng THERE WAS + TÍNH TỪ + DANH TỪ",
+          "formula": "There + was + a/an + Adjective + Noun + (from số liệu năm trước) + to số liệu năm sau + in + Chủ thể + in thời gian",
+          "vi": "Có 1 sự tăng nhẹ nhàng trong số nhân viên nam…",
+          "example": "There was a slight growth (from 50 in 2000) to 70 in the number of male employees working at ABC Company in 2002.",
+          "tags": [
+            "adj",
+            "n"
+          ]
+        }
+      ],
+      "notes": [
+        "Cấu trúc 1 dùng TRẠNG TỪ (slightly). Cấu trúc 2 dùng TÍNH TỪ (slight) + DANH TỪ (growth).",
+        "Đổi qua lại giữa 2 cấu trúc trong bài — đây chính là điểm Grammar Range."
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title": "Giới từ đi với số liệu",
+      "intro": "Muốn đưa số liệu vào bài thì PHẢI có giới từ đứng trước. Đây là lỗi sai phổ biến nhất.",
+      "table": [
+        {
+          "prep": "at",
+          "usage": "stood + at + số liệu → đứng ở mức (dùng cho năm đầu tiên)\nremained stable + at + số liệu → giữ ổn định ở mức",
+          "examples": [
+            "The crime rate stood at 5% in 2000.",
+            "The proportion of female students remained stable at 45% until 2020."
+          ]
+        },
+        {
+          "prep": "to",
+          "usage": "[Verb] increased / grew + to + số liệu\n[Noun] an increase / growth + to + số liệu\n→ chạm ĐÚNG mức đó",
+          "examples": [
+            "The number of students increased to 10,000 after 2 years.",
+            "There was an increase to 10,000 in the number of students after 2 years."
+          ]
+        },
+        {
+          "prep": "by",
+          "usage": "[Verb] increased / grew + by + số liệu\n→ KHOẢNG CHÊNH LỆCH (năm sau trừ năm trước)",
+          "examples": [
+            "The number of students increased by 2,000 after 2 years.  (8,000 → 10,000)",
+            "The proportion of female students grew by 15% from 2000 to 2003.  (20% → 35%)"
+          ]
+        },
+        {
+          "prep": "of",
+          "usage": "[Noun] an increase / growth + of + số liệu → khoảng chênh lệch\nreached a peak / a low + of + số liệu → đạt đỉnh / chạm đáy ở mức",
+          "examples": [
+            "There was an increase of 2,000 in the number of students after 2 years.",
+            "The amount of electricity produced reached a peak of 10,000 units in 2000.",
+            "The amount of electricity produced hit the lowest point of 5,000 units in 1980."
+          ]
+        },
+        {
+          "prep": "around",
+          "usage": "fluctuated / experienced a fluctuation + around + số liệu TRUNG BÌNH",
+          "examples": [
+            "The unemployment rate of Vietnam fluctuated around 10% (from 2007 to 2010)."
+          ]
+        },
+        {
+          "prep": "between … and …",
+          "usage": "fluctuated / experienced a fluctuation + between + số nhỏ nhất + and + số lớn nhất",
+          "examples": [
+            "The unemployment rate of Vietnam fluctuated between 8% and 12% (from 2007 to 2010)."
+          ]
+        }
+      ],
+      "notes": [
+        "'fluctuate' KHÔNG đi với 'from … to …' khi tả số liệu.",
+        "Từ 'peak' không được dùng cho năm đầu tiên. Năm đầu tiên cao nhất thì dùng 'was + the highest'.",
+        "Phân biệt nhanh: to = ĐẾN mức nào; by = TĂNG THÊM bao nhiêu; of = SỰ tăng thêm bao nhiêu (dạng danh từ)."
+      ]
+    },
+    {
+      "id": "levels",
+      "title": "4 cấp độ thay đổi",
+      "intro": "Chọn đúng cấp độ rồi lấy trạng từ (đi với động từ) hoặc tính từ (đi với danh từ) trong cùng ô.",
+      "levels": [
+        {
+          "key": "even",
+          "vi": "ĐỀU (đều, thời gian dài)",
+          "adverbs": [
+            "gradually",
+            "steadily",
+            "slowly",
+            "consistently"
+          ],
+          "adjectives": [
+            "gradual",
+            "steady",
+            "slow",
+            "consistent"
+          ]
+        },
+        {
+          "key": "small",
+          "vi": "NHỎ, NHẸ",
+          "adverbs": [
+            "slightly",
+            "modestly",
+            "marginally",
+            "moderately"
+          ],
+          "adjectives": [
+            "slight",
+            "modest",
+            "marginal",
+            "moderate"
+          ]
+        },
+        {
+          "key": "big",
+          "vi": "LỚN, MẠNH",
+          "adverbs": [
+            "considerably",
+            "significantly",
+            "substantially",
+            "dramatically"
+          ],
+          "adjectives": [
+            "considerable",
+            "significant",
+            "substantial",
+            "dramatic"
+          ]
+        },
+        {
+          "key": "sudden",
+          "vi": "ĐỘT NGỘT (mạnh, thời gian ngắn)",
+          "adverbs": [
+            "suddenly",
+            "sharply",
+            "rapidly"
+          ],
+          "adjectives": [
+            "sudden",
+            "sharp",
+            "rapid"
+          ]
+        }
+      ],
+      "notes": [
+        "Ví dụ cặp đôi: The number of male students decreased GRADUALLY from 30% in 2014 to 20% in 2018.",
+        "= The number of male students saw a GRADUAL decrease from 30% in 2014 to 20% in 2018."
+      ]
+    },
+    {
+      "id": "subject_forms",
+      "title": "Cách diễn đạt chủ thể",
+      "intro": "Chủ thể sẽ được nhắc lại rất nhiều lần nên cần biết vài cách nói khác nhau.",
+      "bullets": [
+        "The number of + NP (danh từ ĐẾM ĐƯỢC số nhiều) + Main Verb → dù danh từ số nhiều nhưng cả chủ thể xem là SỐ ÍT.\nVD: The number of students enrolling in Biology WAS 100 in 2020.",
+        "The amount of / The quantity of + NP (danh từ KHÔNG đếm được) + Main Verb.\nVD: The amount of oil produced daily in Cairo WAS 100 liters in 2020.",
+        "The percentage / proportion of + NP + Main Verb (số ít).\nVD: The percentage of male employees working for Google WAS 20% higher than the figure for their female counterparts.",
+        "The figure(s) FOR + NP → dùng thay cho 'The number/amount/percentage/proportion of…'.\nVD: The figure for visitors to London was 10 million in 2015.\nVD: The figures for unemployment in Vietnam and the US WERE 10% and 8% respectively."
+      ],
+      "notes": [
+        "Nhớ: number/amount/percentage/proportion + OF, nhưng figure(s) + FOR."
+      ]
+    },
+    {
+      "id": "structure_report",
+      "title": "Bố cục bài report dạng trend",
+      "intro": "Bài Task 1 luôn gồm 4 phần theo đúng thứ tự này.",
+      "parts": [
+        {
+          "name": "Introduction",
+          "detail": "1 câu → paraphrase lại đề bài.",
+          "role": "intro"
+        },
+        {
+          "name": "Overview",
+          "detail": "2–3 câu. Phần QUAN TRỌNG NHẤT. Tóm tắt đặc điểm nổi bật nhất (key features). KHÔNG được nêu số liệu.",
+          "role": "overview"
+        },
+        {
+          "name": "Body 1",
+          "detail": "Phải CÓ số liệu. Mô tả nhóm thứ nhất.",
+          "role": "body1"
+        },
+        {
+          "name": "Body 2",
+          "detail": "Phải CÓ số liệu. Mô tả nhóm thứ hai.",
+          "role": "body2"
+        }
+      ],
+      "checklists": [
+        {
+          "title": "Điểm bắt buộc có trong OVERVIEW",
+          "items": [
+            "Xu hướng: nêu nhóm GIỐNG nhau + nhóm ĐỐI LẬP (increased / decreased / fluctuated / remained stable)",
+            "Độ lớn: cái nào luôn cao nhất / thấp nhất / tăng mạnh nhất / giảm mạnh nhất",
+            "KHÔNG được nêu số liệu cụ thể"
+          ],
+          "warn": "Không có Overview → điểm Task Achievement tối đa chỉ 5.0"
+        },
+        {
+          "title": "Điểm bắt buộc có trong BODY",
+          "items": [
+            "Đỉnh (reached a peak)",
+            "Đáy (reached a low)",
+            "Vượt mặt (surpassed / overtook)",
+            "Những sự tăng giảm lớn / nổi bật khác",
+            "Luôn kèm số liệu"
+          ]
+        },
+        {
+          "title": "2 cách chia Body",
+          "items": [
+            "CÁCH 1 — chia theo NĂM: Body 1 = năm đầu → năm giữa (tả đủ 4 item). Body 2 = năm giữa → năm cuối (tả đủ 4 item).",
+            "CÁCH 2 — chia theo NHÓM: Body 1 = những item tăng / số liệu lớn hơn / nổi bật. Body 2 = những item giảm / số liệu nhỏ hơn / không nổi bật."
+          ]
+        }
+      ]
+    }
+  ]
+}

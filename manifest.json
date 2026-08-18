@@ -1,0 +1,37 @@
+{
+  "name": "Task 1 Coach — IELTS Writing Task 1",
+  "short_name": "Task 1 Coach",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F7F8FC",
+  "theme_color": "#2F6BFF",
+  "description": "Học và luyện IELTS Writing Task 1 dạng biểu đồ xu hướng. Hoạt động offline, giao diện tiếng Việt.",
+  "orientation": "portrait-primary",
+  "lang": "vi",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
