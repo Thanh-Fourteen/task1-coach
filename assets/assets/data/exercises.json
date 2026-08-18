@@ -1,0 +1,660 @@
+{
+  "sets": [
+    {
+      "id": "shape_match",
+      "type": "shape",
+      "title": "Nối câu mô tả với hình dạng đồ thị",
+      "description": "Đọc câu tiếng Anh rồi chọn hình dạng đường biểu đồ đúng. Lấy từ Exercise 2 của giáo trình.",
+      "shapes": [
+        {
+          "id": "a",
+          "label": "a",
+          "points": [
+            1.0,
+            0.55,
+            0.75,
+            0.35
+          ],
+          "desc": "lên xuống rồi giảm"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "points": [
+            0.85,
+            0.8,
+            0.76,
+            0.74
+          ],
+          "desc": "giảm rất nhẹ, gần như đi ngang"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "points": [
+            0.2,
+            0.35,
+            0.5,
+            0.6,
+            0.75
+          ],
+          "desc": "tăng đều"
+        },
+        {
+          "id": "d",
+          "label": "d",
+          "points": [
+            0.3,
+            0.6,
+            0.35,
+            0.65,
+            0.45,
+            0.8,
+            0.7
+          ],
+          "desc": "dao động mạnh, xu hướng lên"
+        },
+        {
+          "id": "e",
+          "label": "e",
+          "points": [
+            0.95,
+            0.88,
+            0.15,
+            0.06
+          ],
+          "desc": "lao dốc đột ngột"
+        },
+        {
+          "id": "f",
+          "label": "f",
+          "points": [
+            0.35,
+            0.2,
+            0.22,
+            0.3,
+            0.95
+          ],
+          "desc": "giảm rồi tăng vọt"
+        },
+        {
+          "id": "g",
+          "label": "g",
+          "points": [
+            0.8,
+            0.62,
+            0.44,
+            0.26
+          ],
+          "desc": "giảm đều đặn suốt giai đoạn"
+        },
+        {
+          "id": "h",
+          "label": "h",
+          "points": [
+            0.9,
+            0.5,
+            0.35,
+            0.33,
+            0.32
+          ],
+          "desc": "giảm rồi đi ngang"
+        }
+      ],
+      "items": [
+        {
+          "q": "Sales of audio cassettes fell steadily.",
+          "answer": "g",
+          "explain": "Giảm đều → độ dốc gần như không đổi."
+        },
+        {
+          "q": "iPod sales rose gradually.",
+          "answer": "c",
+          "explain": "Tăng từ từ, đường đi lên đều."
+        },
+        {
+          "q": "Plasma TV sales fluctuated wildly, but the trend was upward.",
+          "answer": "d",
+          "explain": "Lên xuống liên tục nhưng tổng thể vẫn đi lên."
+        },
+        {
+          "q": "Sales of video cassettes fluctuated wildly and the trend was downward.",
+          "answer": "a",
+          "explain": "Lên xuống, điểm cuối thấp hơn điểm đầu."
+        },
+        {
+          "q": "Total digital camera sales dropped slightly.",
+          "answer": "b",
+          "explain": "Giảm nhẹ → gần như đi ngang."
+        },
+        {
+          "q": "Sales of audio cassettes fell and then levelled off.",
+          "answer": "h",
+          "explain": "Giảm rồi chững lại đi ngang."
+        },
+        {
+          "q": "The sales of tablets rose gradually and then climbed sharply.",
+          "answer": "f",
+          "explain": "Tăng từ từ rồi bốc lên rất dốc."
+        },
+        {
+          "q": "Purchases of video cassette recorders declined dramatically.",
+          "answer": "e",
+          "explain": "Giảm cực mạnh, lao dốc."
+        },
+        {
+          "q": "Sales of games consoles decreased and then levelled off.",
+          "answer": "h",
+          "explain": "Giảm trước, đi ngang sau."
+        },
+        {
+          "q": "CD sales dropped suddenly.",
+          "answer": "e",
+          "explain": "Rớt đột ngột, thời gian rất ngắn."
+        }
+      ]
+    },
+    {
+      "id": "transform",
+      "type": "transform",
+      "title": "Biến đổi câu giữa 2 cấu trúc",
+      "description": "Viết lại câu sang cấu trúc còn lại mà giữ nguyên nghĩa.",
+      "items": [
+        {
+          "q": "The number of motorbikes rose steadily during the period from 2000 to 2010.",
+          "hint": "Đổi sang cấu trúc 2: There was + a/an + Adj + Noun.",
+          "answers": [
+            "There was a steady rise in the number of motorbikes during the period from 2000 to 2010.",
+            "The number of motorbikes saw a steady rise during the period from 2000 to 2010."
+          ],
+          "explain": "steadily (trạng từ) → steady (tính từ) + rise (danh từ)."
+        },
+        {
+          "q": "There was a significant increase to $2 million in rice exports between 2005 and 2010.",
+          "hint": "Đổi sang cấu trúc 1: Chủ thể + Verb + Adverb.",
+          "answers": [
+            "Rice exports increased significantly to $2 million between 2005 and 2010.",
+            "Rice exports rose significantly to $2 million from 2005 to 2010."
+          ],
+          "explain": "significant (tính từ) → significantly (trạng từ); increase (danh từ) → increased (động từ). Giữ nguyên giới từ 'to' vì đây là mức đạt tới."
+        },
+        {
+          "q": "There was a slight drop in the sales of audio cassettes in 2002.",
+          "hint": "Đổi sang cấu trúc 1.",
+          "answers": [
+            "The sales of audio cassettes fell modestly in 2002.",
+            "The sales of audio cassettes dropped slightly in 2002."
+          ],
+          "explain": "slight → slightly / modestly; drop (danh từ) → dropped / fell (động từ)."
+        },
+        {
+          "q": "The price of laptops experienced a sudden decrease from $650 to $550.",
+          "hint": "Đổi sang cấu trúc 1.",
+          "answers": [
+            "The price of laptops dropped sharply from $650 to $550.",
+            "The price of laptops decreased suddenly from $650 to $550."
+          ],
+          "explain": "sudden → suddenly / sharply; decrease (danh từ) → decreased / dropped (động từ)."
+        },
+        {
+          "q": "There was an upward trend in the number of visitors to Australia throughout the period.",
+          "hint": "Đổi sang cấu trúc 1 — nhớ 'saw an upward trend' = 'increased'.",
+          "answers": [
+            "The number of visitors to Australia increased throughout the period.",
+            "The number of visitors to Australia rose throughout the period."
+          ],
+          "explain": "Subject + saw an upward trend = Subject + increased."
+        },
+        {
+          "q": "There were wild fluctuations in the sales of MP3 players over the period.",
+          "hint": "Đổi sang động từ 'fluctuate'.",
+          "answers": [
+            "The sales of MP3 players fluctuated wildly over the period.",
+            "The sales of MP3 players varied considerably over the period."
+          ],
+          "explain": "fluctuation (danh từ) → fluctuated (động từ); wild → wildly."
+        },
+        {
+          "q": "The number of visitors to the national museum remained stable throughout the years.",
+          "hint": "Đổi sang cấu trúc dùng danh từ.",
+          "answers": [
+            "There was little change in the number of visitors to the national museum throughout the years.",
+            "The number of visitors to the national museum saw stability throughout the years."
+          ],
+          "explain": "remained stable = saw a stability = showed little change."
+        },
+        {
+          "q": "There was a considerable rise in the number of immigrants from 2010 to 2015.",
+          "hint": "Đổi sang cấu trúc 1.",
+          "answers": [
+            "The number of immigrants rose considerably from 2010 to 2015.",
+            "The number of immigrants increased considerably from 2010 to 2015."
+          ],
+          "explain": "considerable → considerably; rise (danh từ) → rose (động từ quá khứ)."
+        },
+        {
+          "q": "The number of students applying to the university stabilized over the decade.",
+          "hint": "Đổi sang 'There + was …'.",
+          "answers": [
+            "There was stability in the number of students applying to the university over the decade.",
+            "The number of students applying to the university remained stable over the decade."
+          ],
+          "explain": "stabilized = remained stable = saw stability."
+        },
+        {
+          "q": "The year 2000 saw a gradual growth in the house prices in London.",
+          "hint": "Đưa 'the house prices' lên làm chủ ngữ.",
+          "answers": [
+            "The house prices in London grew gradually in 2000.",
+            "The house prices in London rose gradually in 2000."
+          ],
+          "explain": "Khi 'năm' đứng làm chủ ngữ với 'saw', ta có thể đảo lại: chủ thể thật + động từ + trạng từ + in + năm."
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "type": "mcq",
+      "title": "Điền giới từ đúng",
+      "description": "Chọn giới từ đúng đứng trước số liệu. Lấy từ bảng giới từ mục 3.",
+      "options": [
+        "at",
+        "to",
+        "by",
+        "of",
+        "around",
+        "between"
+      ],
+      "items": [
+        {
+          "q": "In 2000: 20% female students. In 2003: 35%. → The proportion of female students grew ___ 35% in 2003.",
+          "answer": "to",
+          "explain": "35% là MỨC ĐẠT TỚI → dùng 'to'."
+        },
+        {
+          "q": "The proportion of female students grew ___ 15% from 2000 to 2003.",
+          "answer": "by",
+          "explain": "15% là KHOẢNG CHÊNH LỆCH (35 − 20) → dùng 'by'."
+        },
+        {
+          "q": "There was a growth ___ 15% in the proportion of female students after 1 year.",
+          "answer": "of",
+          "explain": "Dạng DANH TỪ + chênh lệch → dùng 'of'."
+        },
+        {
+          "q": "There was a growth ___ 35% in the percentage of female students.",
+          "answer": "to",
+          "explain": "Dạng danh từ nhưng nêu MỨC ĐẠT TỚI → vẫn dùng 'to'."
+        },
+        {
+          "q": "The crime rate stood ___ 5% in 2000.",
+          "answer": "at",
+          "explain": "'stood' luôn đi với 'at' — nêu số liệu đứng ở mức nào."
+        },
+        {
+          "q": "The proportion of female students remained stable ___ 45% until 2020.",
+          "answer": "at",
+          "explain": "'remained stable' đi với 'at'."
+        },
+        {
+          "q": "The amount of electricity produced reached a peak ___ 10,000 units in 2000.",
+          "answer": "of",
+          "explain": "'reached a peak' + 'of' + số liệu."
+        },
+        {
+          "q": "The number of students increased ___ 2,000 after 2 years (8,000 → 10,000).",
+          "answer": "by",
+          "explain": "10.000 − 8.000 = 2.000 → chênh lệch → 'by'."
+        },
+        {
+          "q": "The unemployment rate fluctuated ___ 10% from 2007 to 2010.",
+          "answer": "around",
+          "explain": "'fluctuate' + 'around' + số liệu TRUNG BÌNH."
+        },
+        {
+          "q": "The unemployment rate fluctuated ___ 8% and 12% from 2007 to 2010.",
+          "answer": "between",
+          "explain": "'fluctuate' + 'between' + số nhỏ nhất + 'and' + số lớn nhất."
+        },
+        {
+          "q": "The amount of electricity produced hit the lowest point ___ 5,000 units in 1980.",
+          "answer": "of",
+          "explain": "'hit the lowest point' + 'of' + số liệu."
+        },
+        {
+          "q": "There was an increase ___ 10,000 in the number of students after 2 years.",
+          "answer": "to",
+          "explain": "10.000 là con số CUỐI CÙNG đạt tới → 'to'."
+        }
+      ]
+    },
+    {
+      "id": "degree",
+      "type": "mcq",
+      "title": "Chọn từ đúng mức độ",
+      "description": "Đọc mô tả tiếng Việt rồi chọn trạng từ hoặc tính từ đúng cấp độ.",
+      "options": [],
+      "items": [
+        {
+          "q": "Giảm ĐỀU trong thời gian dài → The number of male students decreased ___ from 30% in 2014 to 20% in 2018.",
+          "answer": "gradually",
+          "choices": [
+            "gradually",
+            "sharply",
+            "slightly",
+            "dramatically"
+          ],
+          "explain": "ĐỀU, thời gian dài → gradually / steadily / slowly / consistently."
+        },
+        {
+          "q": "Tăng NHẸ → The percentage increased ___ from 12% to 14%.",
+          "answer": "slightly",
+          "choices": [
+            "slightly",
+            "dramatically",
+            "suddenly",
+            "steadily"
+          ],
+          "explain": "NHẸ → slightly / modestly / marginally / moderately."
+        },
+        {
+          "q": "Giảm MẠNH trong thời gian NGẮN → Sales fell ___ in the last quarter.",
+          "answer": "sharply",
+          "choices": [
+            "sharply",
+            "gradually",
+            "marginally",
+            "steadily"
+          ],
+          "explain": "ĐỘT NGỘT (mạnh, ngắn) → suddenly / sharply / rapidly."
+        },
+        {
+          "q": "Tăng LỚN → The number of cars grew ___ .",
+          "answer": "considerably",
+          "choices": [
+            "considerably",
+            "slightly",
+            "marginally",
+            "modestly"
+          ],
+          "explain": "LỚN, MẠNH → considerably / significantly / substantially / dramatically."
+        },
+        {
+          "q": "Dạng TÍNH TỪ của 'gradually' → The number of male students saw a ___ decrease.",
+          "answer": "gradual",
+          "choices": [
+            "gradual",
+            "gradually",
+            "graduate",
+            "gradualy"
+          ],
+          "explain": "Đi với DANH TỪ 'decrease' nên phải dùng TÍNH TỪ 'gradual'."
+        },
+        {
+          "q": "Dạng TÍNH TỪ của 'significantly' → There was a ___ increase to $2 million.",
+          "answer": "significant",
+          "choices": [
+            "significant",
+            "significantly",
+            "signify",
+            "significance"
+          ],
+          "explain": "Trước danh từ 'increase' → tính từ 'significant'."
+        },
+        {
+          "q": "Tăng KHÔNG ĐÁNG KỂ → The figure rose ___ in 2003.",
+          "answer": "marginally",
+          "choices": [
+            "marginally",
+            "dramatically",
+            "sharply",
+            "substantially"
+          ],
+          "explain": "Không đáng kể là mức NHẸ nhất → marginally."
+        },
+        {
+          "q": "Giảm RẤT MẠNH (dùng tính từ) → The sector saw a ___ decline.",
+          "answer": "substantial",
+          "choices": [
+            "substantial",
+            "substantially",
+            "slight",
+            "marginal"
+          ],
+          "explain": "Trước danh từ 'decline' → tính từ; mức LỚN → substantial."
+        },
+        {
+          "q": "Tăng NHANH CHÓNG → The figure rose ___ after 2015.",
+          "answer": "rapidly",
+          "choices": [
+            "rapidly",
+            "slowly",
+            "modestly",
+            "consistently"
+          ],
+          "explain": "Nhanh chóng thuộc nhóm ĐỘT NGỘT → rapidly."
+        },
+        {
+          "q": "Giảm KHIÊM TỐN → The sales of audio cassettes fell ___ in 2002.",
+          "answer": "modestly",
+          "choices": [
+            "modestly",
+            "dramatically",
+            "sharply",
+            "suddenly"
+          ],
+          "explain": "Khiêm tốn = nhẹ → modestly."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "type": "translate",
+      "title": "Dịch câu Việt → Anh",
+      "description": "Nhìn đường biểu đồ và câu tiếng Việt, tự viết câu tiếng Anh rồi đối chiếu với đáp án. Đây là dạng sát với lúc thi nhất.",
+      "options": [],
+      "shapes": [],
+      "items": [
+        {
+          "q": "Số lượng khách du lịch tăng nhẹ từ 50 nghìn năm 2000 lên 70 nghìn năm 2002.",
+          "shape": [
+            0.35,
+            0.5
+          ],
+          "caption": "50 (2000) → 70 (2002)",
+          "hint": "Cấu trúc 1: Chủ thể + Verb + Adverb + from … to …",
+          "answers": [
+            "The number of tourists rose slightly from 50,000 in 2000 to 70,000 in 2002.",
+            "The number of tourists saw a slight rise from 50,000 in 2000 to 70,000 in 2002.",
+            "There was a slight rise from 50,000 in 2000 to 70,000 in 2002 in the number of tourists."
+          ],
+          "explain": "Tăng NHẸ → slightly (trạng từ) hoặc slight (tính từ). Số liệu năm sau đi với 'to' vì đó là mức đạt tới."
+        },
+        {
+          "q": "Doanh số băng cassette giảm đều đặn trong suốt giai đoạn.",
+          "shape": [
+            0.8,
+            0.62,
+            0.44,
+            0.26
+          ],
+          "caption": "giảm đều, không có đỉnh đáy",
+          "hint": "Mức độ ĐỀU dùng steadily / gradually.",
+          "answers": [
+            "The sales of audio cassettes fell steadily throughout the period.",
+            "The sales of audio cassettes decreased gradually over the period.",
+            "The sales of audio cassettes saw a steady decline throughout the period."
+          ],
+          "explain": "'throughout the period' = trong suốt giai đoạn. Giảm đều dùng steadily / gradually, KHÔNG dùng sharply."
+        },
+        {
+          "q": "Tỉ lệ thất nghiệp dao động trong khoảng 8% đến 12% từ 2007 đến 2010.",
+          "shape": [
+            0.75,
+            0.95,
+            0.25,
+            0.6
+          ],
+          "caption": "lên xuống liên tục, thấp nhất 8%, cao nhất 12%",
+          "hint": "Nhớ: fluctuate KHÔNG đi với from … to …",
+          "answers": [
+            "The unemployment rate fluctuated between 8% and 12% from 2007 to 2010.",
+            "The unemployment rate saw fluctuations between 8% and 12% from 2007 to 2010."
+          ],
+          "explain": "Bẫy kinh điển: phải là 'between 8% AND 12%'. Viết 'fluctuated from 8% to 12%' là SAI."
+        },
+        {
+          "q": "Lượng điện sản xuất đạt đỉnh 10.000 đơn vị vào năm 2000.",
+          "shape": [
+            0.3,
+            0.55,
+            0.95,
+            0.6
+          ],
+          "caption": "đỉnh rơi vào năm giữa, không phải năm đầu",
+          "hint": "Danh từ 'a peak' đi với giới từ nào?",
+          "answers": [
+            "The amount of electricity produced reached a peak of 10,000 units in 2000.",
+            "The amount of electricity produced peaked at 10,000 units in 2000.",
+            "The amount of electricity produced hit the highest point of 10,000 units in 2000."
+          ],
+          "explain": "Danh từ 'a peak' + OF. Động từ 'peaked' + AT. 'electricity' không đếm được nên dùng 'the amount of'."
+        },
+        {
+          "q": "Tỉ lệ nữ sinh giữ ổn định ở mức 45% cho tới năm 2020.",
+          "shape": [
+            0.6,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "caption": "đường nằm ngang ở mức 45%",
+          "hint": "Sau 'remained stable' dùng giới từ nào?",
+          "answers": [
+            "The proportion of female students remained stable at 45% until 2020.",
+            "The percentage of female students remained unchanged at 45% until 2020.",
+            "The proportion of female students stayed constant at 45% until 2020."
+          ],
+          "explain": "'remained stable' + AT + số liệu + UNTIL + thời gian. Đơn vị là % nên dùng proportion / percentage."
+        },
+        {
+          "q": "Giá laptop giảm mạnh từ 650 đô xuống 550 đô.",
+          "shape": [
+            0.9,
+            0.85,
+            0.2,
+            0.12
+          ],
+          "caption": "lao dốc trong thời gian ngắn",
+          "hint": "Giảm mạnh, thời gian ngắn → nhóm ĐỘT NGỘT.",
+          "answers": [
+            "The price of laptops dropped sharply from $650 to $550.",
+            "The price of laptops fell suddenly from $650 to $550.",
+            "The price of laptops saw a sharp fall from $650 to $550."
+          ],
+          "explain": "Đột ngột → sharply / suddenly / rapidly. Dạng danh từ: a sharp fall / a sudden drop."
+        },
+        {
+          "q": "Số lượng học sinh tăng thêm 2.000 sau 2 năm.",
+          "shape": [
+            0.4,
+            0.7
+          ],
+          "caption": "8.000 → 10.000, chênh lệch 2.000",
+          "hint": "Đây là khoảng CHÊNH LỆCH, không phải mức đạt tới.",
+          "answers": [
+            "The number of students increased by 2,000 after 2 years.",
+            "The number of students grew by 2,000 after 2 years.",
+            "There was an increase of 2,000 in the number of students after 2 years."
+          ],
+          "explain": "Chênh lệch: động từ + BY, danh từ + OF. Nếu nói mức đạt tới thì dùng TO: 'increased to 10,000'."
+        },
+        {
+          "q": "Con số của Bồ Đào Nha cao nhất vào năm 1990, ở mức khoảng 27%.",
+          "shape": [
+            0.95,
+            0.8,
+            0.7,
+            0.6
+          ],
+          "caption": "năm ĐẦU TIÊN cao nhất rồi đi xuống",
+          "hint": "Năm đầu tiên KHÔNG được dùng 'reached a peak'.",
+          "answers": [
+            "The figure for Portugal was the highest in 1990, at around 27%.",
+            "The percentage of Portugal was the highest in 1990, at approximately 27%."
+          ],
+          "explain": "Năm đầu tiên chưa leo lên từ đâu nên không dùng 'peak'. Dùng 'was the highest'. Và nhớ 'the figure FOR', không phải 'of'."
+        },
+        {
+          "q": "Số người đi tàu vượt mặt số người đi xe buýt vào khoảng năm 2005.",
+          "shape": [
+            0.25,
+            0.45,
+            0.7,
+            0.9
+          ],
+          "caption": "đường đi lên cắt qua đường kia",
+          "hint": "'Vượt mặt' là điểm nổi bật bắt buộc phải nêu khi hai đường cắt nhau.",
+          "answers": [
+            "The number of train passengers overtook that of bus commuters in around 2005.",
+            "The number of train passengers surpassed the figure for buses in around 2005.",
+            "The number of people travelling by train exceeded that of buses in around 2005."
+          ],
+          "explain": "overtake / surpass / exceed. Dùng 'that of' hoặc 'the figure for' để khỏi lặp lại cả cụm danh từ."
+        },
+        {
+          "q": "Tỉ lệ tăng đáng kể lên 15% vào cuối giai đoạn.",
+          "shape": [
+            0.3,
+            0.35,
+            0.55,
+            0.9
+          ],
+          "caption": "tăng mạnh ở đoạn cuối",
+          "hint": "Mức LỚN, MẠNH dùng nhóm từ nào?",
+          "answers": [
+            "The figure rose significantly to 15% at the end of the period.",
+            "The figure increased considerably to 15% at the end of the period.",
+            "The figure saw a significant rise to 15% at the end of the period."
+          ],
+          "explain": "Lớn/mạnh → considerably / significantly / substantially / dramatically. 'at the end of the period' thay cho việc lặp lại năm cuối."
+        },
+        {
+          "q": "Doanh số CD giảm rồi sau đó đi ngang.",
+          "shape": [
+            0.9,
+            0.5,
+            0.35,
+            0.33,
+            0.32
+          ],
+          "caption": "giảm trước, chững lại sau",
+          "hint": "'đi ngang' sau khi tăng/giảm dùng cụm động từ nào?",
+          "answers": [
+            "CD sales fell and then levelled off.",
+            "The sales of CDs decreased and then remained stable.",
+            "CD sales dropped before levelling off."
+          ],
+          "explain": "'level off' = đang tăng/giảm rồi chững lại đi ngang. Có thể viết 'before levelling off' cho gọn."
+        },
+        {
+          "q": "Nông nghiệp là ngành đóng góp thấp nhất năm 1900, chiếm khoảng 3% nền kinh tế.",
+          "shape": [
+            0.12,
+            0.3,
+            0.6,
+            0.9
+          ],
+          "caption": "xuất phát thấp nhất rồi vươn lên",
+          "hint": "'chiếm bao nhiêu %' dùng account for / make up.",
+          "answers": [
+            "Agriculture was the lowest contributor in 1900, accounting for around 3% of the economy.",
+            "Agriculture made up only around 3% of the economy in 1900, the lowest of all the sectors.",
+            "Agriculture contributed the least in 1900, at approximately 3% of the economy."
+          ],
+          "explain": "'accounting for' là dạng V-ing rút gọn — rất gọn và ghi điểm ngữ pháp. account for = make up = chiếm."
+        }
+      ]
+    }
+  ]
+}

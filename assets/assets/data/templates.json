@@ -1,0 +1,100 @@
+{
+  "parts": [
+    {
+      "role": "intro",
+      "title": "Introduction",
+      "hint": "1 câu. Paraphrase lại đề bài: đổi động từ, đổi cách nói chủ thể, đổi cách nói thời gian.",
+      "formula": "[Loại biểu đồ] + [Động từ] + [Chủ thể đã paraphrase] + [Nơi chốn] + [Thời gian].",
+      "chips": [
+        "The bar chart illustrates ",
+        "The line graph demonstrates ",
+        "The chart depicts ",
+        "the number of ",
+        "the percentage of ",
+        "the proportion of ",
+        "the figure for ",
+        " in the UK",
+        " from 1990 to 2005.",
+        " between 1990 and 2005.",
+        " over the period from 1990 to 2005."
+      ],
+      "examples": [
+        "The bar chart illustrates the proportion of government spending on roads and transport in 4 nations between 1990 and 2005.",
+        "The line graph demonstrates the percentage of tourists to England who visited four different attractions in Brighton from 1980 to 2010."
+      ]
+    },
+    {
+      "role": "overview",
+      "title": "Overview",
+      "hint": "2–3 câu. Nêu xu hướng chung + đối lập, rồi nêu cái cao nhất/thấp nhất. TUYỆT ĐỐI không có số liệu.",
+      "formula": "Overall, it is clear that [xu hướng nhóm A] while the opposite trend was true for [nhóm B]. In addition, [item] had the highest/lowest figure throughout the period.",
+      "chips": [
+        "Overall, it is clear that ",
+        "the number of ",
+        " increased while the opposite trend was true for ",
+        " decreased while the opposite was true for ",
+        "and the figure for ",
+        " fluctuated.",
+        "In addition, ",
+        "Moreover, ",
+        " had the highest figure throughout the period.",
+        " had the lowest figure throughout the period.",
+        " witnessed the most dramatic growth.",
+        " witnessed the most dramatic fall."
+      ],
+      "examples": [
+        "Overall, it is clear that the percentages of government spending in Italia, Portugal and the UK decreased while the opposite was true for the USA. Moreover, the figure for Portugal was the highest throughout the period, except in 2000.",
+        "Overall, contributions of agriculture and manufacturing declined significantly while business and financial services showed a steady increase. Moreover, despite contributing the least in 1900, business and finance became the leading sector by 2000."
+      ]
+    },
+    {
+      "role": "body1",
+      "title": "Body 1",
+      "hint": "Mở đầu bằng câu tín hiệu, rồi tả có số liệu. Nhớ nêu đỉnh / đáy / vượt mặt.",
+      "formula": "It can be seen from the graph that … In [năm đầu], the number of [A] was the highest, at [số], compared with [số] of [B]. Two years later, the figure for [A] + [Verb] + [Adverb] + to [số].",
+      "chips": [
+        "It can be seen from the graph that ",
+        "In 1990, ",
+        "the number of ",
+        " was the highest, at around ",
+        " was the lowest, at around ",
+        ", compared with ",
+        "Two years later, ",
+        "the figure for ",
+        " rose slightly to ",
+        " fell sharply to ",
+        ", after which it ",
+        " reached a peak of ",
+        " reached a low of ",
+        " which was followed by a "
+      ],
+      "examples": [
+        "It can be seen from the graph that the percentages of government spending in Portugal and Italia were the most significant. In 1990, the proportion of government spending in Portugal was the highest, at around 27%, compared with around 22% of Italia."
+      ]
+    },
+    {
+      "role": "body2",
+      "title": "Body 2",
+      "hint": "Mở bằng liên từ đối lập, tả nhóm còn lại, cũng phải có số liệu.",
+      "formula": "By contrast, [câu topic sentence]. [Số liệu] + [C] + [Verb], which was followed by a/an + Adj + Noun. [Liên từ], the figure for [D] …",
+      "chips": [
+        "By contrast, ",
+        "Meanwhile, ",
+        "the proportions of ",
+        " were the smallest.",
+        "In 1990, the figure of ",
+        " was the same, at around ",
+        "However, ",
+        "Nevertheless, ",
+        " its figure rose significantly to ",
+        " at the end of the period.",
+        "which was followed by a ",
+        "before ",
+        "after that, "
+      ],
+      "examples": [
+        "By contrast, the proportions of government spending in the USA and the UK were the smallest. In 1990, the figure of the USA was around 11%, compared with 10% of the UK. However, its figure rose significantly to 15% at the end of the period."
+      ]
+    }
+  ]
+}

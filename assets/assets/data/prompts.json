@@ -1,0 +1,180 @@
+{
+  "prompts": [
+    {
+      "id": "gov_spending",
+      "chartType": "bar",
+      "title": "Chi tiêu chính phủ cho đường bộ và giao thông",
+      "question": "The bar chart below shows the percentage of government spending on roads and transport in 4 countries in the years 1990, 1995, 2000 and 2005.",
+      "unit": "%",
+      "axisLabel": "Percentage",
+      "categories": ["1990", "1995", "2000", "2005"],
+      "series": [
+        {"name": "Italia", "values": [22, 20, 23, 19]},
+        {"name": "Portugal", "values": [27, 24, 22, 20]},
+        {"name": "UK", "values": [10, 9, 12, 8]},
+        {"name": "USA", "values": [11, 10, 14, 15]}
+      ],
+      "source": "Giáo trình — GRAPH 1",
+      "sampleId": "gov_spending_sample"
+    },
+    {
+      "id": "uk_economy",
+      "chartType": "line",
+      "title": "Đóng góp của các ngành vào nền kinh tế Anh",
+      "question": "The line graph below shows the contribution of three sectors to the UK economy between 1900 and 2000.",
+      "unit": "%",
+      "axisLabel": "Percentage of economy",
+      "categories": ["1900", "1950", "1975", "2000"],
+      "series": [
+        {"name": "Agriculture", "values": [50, 53, 20, 3]},
+        {"name": "Manufacturing", "values": [45, 35, 25, 15]},
+        {"name": "Business & finance", "values": [3, 10, 20, 35]}
+      ],
+      "source": "Giáo trình — bài mẫu trang 19",
+      "sampleId": "uk_economy_sample"
+    },
+    {
+      "id": "brighton",
+      "chartType": "line",
+      "title": "Khách du lịch tới các điểm tham quan ở Brighton",
+      "question": "The line graph below shows the percentage of tourists to England who visited four different attractions in Brighton between 1980 and 2010.",
+      "unit": "%",
+      "axisLabel": "Percentage of tourists",
+      "categories": ["1980", "1990", "2000", "2010"],
+      "series": [
+        {"name": "Pavilion", "values": [30, 42, 50, 36]},
+        {"name": "Festival", "values": [12, 18, 26, 40]},
+        {"name": "Pier", "values": [45, 38, 30, 22]},
+        {"name": "Art gallery", "values": [8, 10, 14, 18]}
+      ],
+      "source": "Giáo trình — Exercise 7, Figure 2",
+      "sampleId": "brighton_sample"
+    },
+    {
+      "id": "transport_uk",
+      "chartType": "line",
+      "title": "Người đi lại hằng ngày bằng phương tiện công cộng ở Anh",
+      "question": "The chart below shows the average number of people who commuted each day by three different means of public transport in the UK between 1980 and 2010.",
+      "unit": "nghìn người",
+      "axisLabel": "Number of people (thousands)",
+      "categories": ["1980", "1990", "2000", "2010"],
+      "series": [
+        {"name": "Bus", "values": [400, 350, 280, 200]},
+        {"name": "Train", "values": [180, 220, 300, 420]},
+        {"name": "Underground", "values": [120, 150, 190, 250]}
+      ],
+      "source": "Giáo trình — mục 5.3a",
+      "sampleId": "transport_uk_sample"
+    },
+    {
+      "id": "electronics",
+      "chartType": "line",
+      "title": "Doanh số thiết bị nghe nhìn",
+      "question": "The line graph below shows the sales of four home entertainment products between 2000 and 2015.",
+      "unit": "triệu chiếc",
+      "axisLabel": "Sales (millions)",
+      "categories": ["2000", "2005", "2010", "2015"],
+      "series": [
+        {"name": "Audio cassettes", "values": [40, 22, 8, 2]},
+        {"name": "CDs", "values": [60, 75, 45, 15]},
+        {"name": "MP3 players", "values": [5, 38, 52, 30]},
+        {"name": "Tablets", "values": [0, 3, 25, 70]}
+      ],
+      "source": "Soạn theo Exercise 2",
+      "sampleId": "electronics_sample"
+    },
+    {
+      "id": "unemployment_vn",
+      "chartType": "line",
+      "title": "Tỉ lệ thất nghiệp ở Việt Nam và Mỹ",
+      "question": "The line graph below shows the unemployment rate in Vietnam and the US from 2007 to 2010.",
+      "unit": "%",
+      "axisLabel": "Unemployment rate",
+      "categories": ["2007", "2008", "2009", "2010"],
+      "series": [
+        {"name": "Vietnam", "values": [11, 12, 8, 10]},
+        {"name": "The US", "values": [5, 6, 9, 10]}
+      ],
+      "source": "Giáo trình — ví dụ mục giới từ",
+      "sampleId": "unemployment_vn_sample"
+    },
+    {
+      "id": "students_gender",
+      "chartType": "bar",
+      "title": "Tỉ lệ sinh viên nam và nữ ngành Kỹ thuật",
+      "question": "The bar chart below shows the percentage of male and female students studying Engineering at a university between 2014 and 2020.",
+      "unit": "%",
+      "axisLabel": "Percentage of students",
+      "categories": ["2014", "2016", "2018", "2020"],
+      "series": [
+        {"name": "Male", "values": [30, 26, 20, 18]},
+        {"name": "Female", "values": [10, 22, 40, 45]}
+      ],
+      "source": "Giáo trình — ví dụ mục 1.2",
+      "sampleId": "students_gender_sample"
+    },
+    {
+      "id": "electricity",
+      "chartType": "line",
+      "title": "Lượng điện sản xuất theo nguồn",
+      "question": "The line graph below shows the amount of electricity produced from three sources in one country between 1980 and 2020.",
+      "unit": "nghìn đơn vị",
+      "axisLabel": "Electricity produced (thousand units)",
+      "categories": ["1980", "1990", "2000", "2010", "2020"],
+      "series": [
+        {"name": "Coal", "values": [8, 9, 10, 6, 3]},
+        {"name": "Nuclear", "values": [5, 7, 8, 8, 7]},
+        {"name": "Renewables", "values": [1, 2, 3, 7, 14]}
+      ],
+      "source": "Giáo trình — ví dụ mục giới từ 'of'",
+      "sampleId": "electricity_sample"
+    },
+    {
+      "id": "house_prices",
+      "chartType": "line",
+      "title": "Giá nhà trung bình tại ba thành phố",
+      "question": "The line graph below shows average house prices in three cities between 1995 and 2015.",
+      "unit": "nghìn bảng",
+      "axisLabel": "Average price (thousand pounds)",
+      "categories": ["1995", "2000", "2005", "2010", "2015"],
+      "series": [
+        {"name": "London", "values": [90, 140, 220, 260, 380]},
+        {"name": "Manchester", "values": [50, 70, 120, 115, 160]},
+        {"name": "Cardiff", "values": [45, 60, 100, 95, 130]}
+      ],
+      "source": "Tự soạn theo mẫu giáo trình",
+      "sampleId": null
+    },
+    {
+      "id": "mobile_internet",
+      "chartType": "bar",
+      "title": "Tỉ lệ hộ gia đình có điện thoại di động và Internet",
+      "question": "The bar chart below shows the percentage of households in one country with a mobile phone and home internet access between 2000 and 2015.",
+      "unit": "%",
+      "axisLabel": "Percentage of households",
+      "categories": ["2000", "2005", "2010", "2015"],
+      "series": [
+        {"name": "Mobile phone", "values": [25, 62, 88, 96]},
+        {"name": "Home internet", "values": [12, 40, 70, 85]}
+      ],
+      "source": "Tự soạn theo mẫu giáo trình",
+      "sampleId": null
+    },
+    {
+      "id": "rice_exports",
+      "chartType": "line",
+      "title": "Xuất khẩu gạo của ba quốc gia",
+      "question": "The line graph below shows rice exports from three countries between 2005 and 2020.",
+      "unit": "triệu tấn",
+      "axisLabel": "Rice exports (million tonnes)",
+      "categories": ["2005", "2010", "2015", "2020"],
+      "series": [
+        {"name": "Vietnam", "values": [4, 6, 7, 6]},
+        {"name": "Thailand", "values": [7, 9, 10, 6]},
+        {"name": "India", "values": [3, 2, 11, 14]}
+      ],
+      "source": "Tự soạn theo mẫu giáo trình",
+      "sampleId": null
+    }
+  ]
+}
