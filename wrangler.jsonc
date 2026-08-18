@@ -1,0 +1,12 @@
+{
+  // Cấu hình cho Cloudflare Workers phục vụ trang tĩnh.
+  // Không có mã Worker nào — chỉ trỏ vào thư mục public/.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "task1-coach",
+  "compatibility_date": "2026-08-01",
+  "assets": {
+    "directory": "./public",
+    // Flutter Web là ứng dụng một trang: mọi đường dẫn lạ đều trả index.html
+    "not_found_handling": "single-page-application"
+  }
+}

@@ -3,16 +3,31 @@
 Học và luyện **IELTS Writing Task 1** dạng biểu đồ xu hướng.
 Giao diện tiếng Việt, chạy được offline sau lần tải đầu tiên.
 
-Đây là **bản đã biên dịch sẵn** (Flutter Web). Kho này chỉ chứa file tĩnh nên
-Cloudflare Pages / Netlify / GitHub Pages có thể phục vụ trực tiếp, không cần build.
+Kho này chứa **bản đã biên dịch sẵn** (Flutter Web) trong thư mục `public/`,
+không cần bước build khi deploy.
 
-## Cấu hình khi deploy
+## Deploy
+
+### Cloudflare Workers (cấu hình sẵn trong `wrangler.jsonc`)
+
+| Mục | Giá trị |
+|---|---|
+| Build command | *(để trống)* |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
+
+### Cloudflare Pages / Netlify / Vercel
 
 | Mục | Giá trị |
 |---|---|
 | Framework preset | None |
 | Build command | *(để trống)* |
-| Build output directory | `/` |
+| Build output directory | `public` |
+
+### GitHub Pages
+
+Xem nhánh `gh-pages` (đã build sẵn với base-href `/task1-coach/`):
+https://thanh-fourteen.github.io/task1-coach/
 
 ## Dùng trên điện thoại
 
