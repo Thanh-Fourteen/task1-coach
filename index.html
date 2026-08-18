@@ -67,5 +67,16 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // Service worker riêng của app: cache toàn bộ tài nguyên để lần sau mở
+    // được cả khi mất mạng. Flutter đã bỏ service worker của họ từ 3.4x.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js').catch(function (e) {
+          console.warn('Không đăng ký được service worker:', e);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
